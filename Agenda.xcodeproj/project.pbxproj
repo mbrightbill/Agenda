@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		D515AFEA1AC7870D008EB5EC /* TodayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D515AFE91AC7870D008EB5EC /* TodayViewController.swift */; };
+		D515AFEC1AC79169008EB5EC /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = D515AFEB1AC79169008EB5EC /* Task.swift */; };
 		D55763601AC782AF00B2C353 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D557635F1AC782AF00B2C353 /* AppDelegate.swift */; };
 		D55763631AC782AF00B2C353 /* Agenda.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D55763611AC782AF00B2C353 /* Agenda.xcdatamodeld */; };
 		D55763681AC782AF00B2C353 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D55763661AC782AF00B2C353 /* Main.storyboard */; };
@@ -28,6 +29,7 @@
 
 /* Begin PBXFileReference section */
 		D515AFE91AC7870D008EB5EC /* TodayViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TodayViewController.swift; sourceTree = "<group>"; };
+		D515AFEB1AC79169008EB5EC /* Task.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Task.swift; sourceTree = "<group>"; };
 		D557635A1AC782AF00B2C353 /* Agenda.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Agenda.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D557635E1AC782AF00B2C353 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D557635F1AC782AF00B2C353 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -116,6 +118,7 @@
 			isa = PBXGroup;
 			children = (
 				D55763611AC782AF00B2C353 /* Agenda.xcdatamodeld */,
+				D515AFEB1AC79169008EB5EC /* Task.swift */,
 			);
 			name = "Model Layer";
 			sourceTree = "<group>";
@@ -239,6 +242,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D515AFEC1AC79169008EB5EC /* Task.swift in Sources */,
 				D55763601AC782AF00B2C353 /* AppDelegate.swift in Sources */,
 				D55763631AC782AF00B2C353 /* Agenda.xcdatamodeld in Sources */,
 				D515AFEA1AC7870D008EB5EC /* TodayViewController.swift in Sources */,

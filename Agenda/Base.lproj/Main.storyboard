@@ -16,7 +16,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" translatesAutoresizingMaskIntoConstraints="NO" id="iIQ-hx-abx">
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" translatesAutoresizingMaskIntoConstraints="NO" id="iIQ-hx-abx">
                                 <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <prototypes>
@@ -31,6 +31,12 @@
                             </tableView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="qwV-zQ-UPU" firstAttribute="top" secondItem="iIQ-hx-abx" secondAttribute="bottom" id="NSM-Iz-Th0"/>
+                            <constraint firstItem="iIQ-hx-abx" firstAttribute="leading" secondItem="yQ6-UD-Duo" secondAttribute="leading" id="NpN-TI-Euc"/>
+                            <constraint firstAttribute="trailing" secondItem="iIQ-hx-abx" secondAttribute="trailing" id="g2d-RD-scb"/>
+                            <constraint firstItem="iIQ-hx-abx" firstAttribute="top" secondItem="yQ6-UD-Duo" secondAttribute="top" id="zRJ-Tv-4qn"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="Agenda" id="7gF-J4-6xX"/>
                     <connections>
