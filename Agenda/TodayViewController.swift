@@ -33,8 +33,9 @@ class TodayViewController: UIViewController, UITableViewDataSource, UITableViewD
     override func viewWillAppear(animated: Bool) {
         
         let addBarButton = UIBarButtonItem(barButtonSystemItem: UIBarButtonSystemItem.Add, target: self, action: "addBarButtonPressed")
-        self.navigationItem.rightBarButtonItem = addBarButton
-        
+        let uploadBarButton = UIBarButtonItem(barButtonSystemItem: UIBarButtonSystemItem.Action, target: self, action: "uploadBarButtonPressed")
+        navigationItem.rightBarButtonItems = [addBarButton, uploadBarButton]
+            
         // Core Data
         var fetchRequest = NSFetchRequest(entityName: "Task")
         
@@ -122,6 +123,19 @@ class TodayViewController: UIViewController, UITableViewDataSource, UITableViewD
         
         presentViewController(alert, animated: true, completion: nil)
     }
+    
+    func uploadBarButtonPressed() {
+        println("Upload Bar button pressed!")
+    }
+    
+    // MARK: Menu button method
+    
+    @IBAction func menuButtonPressed(sender: AnyObject) {
+        
+        println("Menu Button pressed!")
+        
+    }
+    
     
     // MARK: - Memory warning method
 
