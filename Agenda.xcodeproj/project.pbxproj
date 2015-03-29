@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D515AFEA1AC7870D008EB5EC /* TodayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D515AFE91AC7870D008EB5EC /* TodayViewController.swift */; };
 		D55763601AC782AF00B2C353 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D557635F1AC782AF00B2C353 /* AppDelegate.swift */; };
 		D55763631AC782AF00B2C353 /* Agenda.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D55763611AC782AF00B2C353 /* Agenda.xcdatamodeld */; };
 		D55763681AC782AF00B2C353 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D55763661AC782AF00B2C353 /* Main.storyboard */; };
@@ -26,6 +27,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D515AFE91AC7870D008EB5EC /* TodayViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TodayViewController.swift; sourceTree = "<group>"; };
 		D557635A1AC782AF00B2C353 /* Agenda.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Agenda.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D557635E1AC782AF00B2C353 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D557635F1AC782AF00B2C353 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -36,7 +38,6 @@
 		D55763721AC782AF00B2C353 /* AgendaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AgendaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D55763771AC782AF00B2C353 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D55763781AC782AF00B2C353 /* AgendaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AgendaTests.swift; sourceTree = "<group>"; };
-		D55763861AC783D300B2C353 /* Base */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Base; path = Base.lproj/TodayViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -123,7 +124,7 @@
 			isa = PBXGroup;
 			children = (
 				D557635F1AC782AF00B2C353 /* AppDelegate.swift */,
-				D55763851AC783D300B2C353 /* TodayViewController.swift */,
+				D515AFE91AC7870D008EB5EC /* TodayViewController.swift */,
 			);
 			name = "Controller Layer";
 			sourceTree = "<group>";
@@ -240,6 +241,7 @@
 			files = (
 				D55763601AC782AF00B2C353 /* AppDelegate.swift in Sources */,
 				D55763631AC782AF00B2C353 /* Agenda.xcdatamodeld in Sources */,
+				D515AFEA1AC7870D008EB5EC /* TodayViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,14 +278,6 @@
 				D557636C1AC782AF00B2C353 /* Base */,
 			);
 			name = LaunchScreen.xib;
-			sourceTree = "<group>";
-		};
-		D55763851AC783D300B2C353 /* TodayViewController.swift */ = {
-			isa = PBXVariantGroup;
-			children = (
-				D55763861AC783D300B2C353 /* Base */,
-			);
-			name = TodayViewController.swift;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -441,6 +435,7 @@
 				D557637E1AC782AF00B2C353 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D557637F1AC782AF00B2C353 /* Build configuration list for PBXNativeTarget "AgendaTests" */ = {
 			isa = XCConfigurationList;
@@ -449,6 +444,7 @@
 				D55763811AC782AF00B2C353 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
