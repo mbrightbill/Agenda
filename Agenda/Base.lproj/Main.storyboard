@@ -30,7 +30,6 @@
                                 </prototypes>
                             </tableView>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="qwV-zQ-UPU" firstAttribute="top" secondItem="iIQ-hx-abx" secondAttribute="bottom" id="NSM-Iz-Th0"/>
                             <constraint firstItem="iIQ-hx-abx" firstAttribute="leading" secondItem="yQ6-UD-Duo" secondAttribute="leading" id="NpN-TI-Euc"/>
@@ -56,7 +55,6 @@
         <!--Navigation Controller-->
         <scene sceneID="ubG-0K-YzQ">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="tVd-b0-Z8t" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="1Gx-jg-25J" sceneMemberID="viewController">
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="LcE-SJ-Cwt">
@@ -68,6 +66,7 @@
                         <segue destination="EJY-hr-GoK" kind="relationship" relationship="rootViewController" id="awV-Vs-OoC"/>
                     </connections>
                 </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="tVd-b0-Z8t" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="393" y="-254"/>
         </scene>

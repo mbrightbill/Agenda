@@ -16,6 +16,7 @@
 		D557636A1AC782AF00B2C353 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D55763691AC782AF00B2C353 /* Images.xcassets */; };
 		D557636D1AC782AF00B2C353 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = D557636B1AC782AF00B2C353 /* LaunchScreen.xib */; };
 		D55763791AC782AF00B2C353 /* AgendaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D55763781AC782AF00B2C353 /* AgendaTests.swift */; };
+		D59F244D1AD5DD1A005D597C /* greenSlice.png in Resources */ = {isa = PBXBuildFile; fileRef = D59F244C1AD5DD1A005D597C /* greenSlice.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +43,7 @@
 		D55763721AC782AF00B2C353 /* AgendaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AgendaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D55763771AC782AF00B2C353 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D55763781AC782AF00B2C353 /* AgendaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AgendaTests.swift; sourceTree = "<group>"; };
+		D59F244C1AD5DD1A005D597C /* greenSlice.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = greenSlice.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +96,7 @@
 		D557635D1AC782AF00B2C353 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				D59F244C1AD5DD1A005D597C /* greenSlice.png */,
 				D515B0201AC7AB83008EB5EC /* Menu-50.png */,
 				D557635E1AC782AF00B2C353 /* Info.plist */,
 			);
@@ -226,6 +229,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D55763681AC782AF00B2C353 /* Main.storyboard in Resources */,
+				D59F244D1AD5DD1A005D597C /* greenSlice.png in Resources */,
 				D515B0211AC7AB83008EB5EC /* Menu-50.png in Resources */,
 				D557636D1AC782AF00B2C353 /* LaunchScreen.xib in Resources */,
 				D557636A1AC782AF00B2C353 /* Images.xcassets in Resources */,

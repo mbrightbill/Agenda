@@ -28,6 +28,7 @@ class TodayViewController: UIViewController, UITableViewDataSource, UITableViewD
         let appDelegate = UIApplication.sharedApplication().delegate as AppDelegate
         self.managedContext = appDelegate.managedObjectContext!
         
+        todayTableView.backgroundColor = UIColor(patternImage: UIImage(named: "greenSlice.png")!)
     }
     
     override func viewWillAppear(animated: Bool) {
@@ -54,6 +55,10 @@ class TodayViewController: UIViewController, UITableViewDataSource, UITableViewD
     func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
         
         let cell = tableView.dequeueReusableCellWithIdentifier("TASK_CELL", forIndexPath: indexPath) as UITableViewCell
+        
+        cell.backgroundColor = UIColor.clearColor()
+        cell.textLabel?.textColor = UIColor.whiteColor()
+        
         let taskToDisplay = tasks[indexPath.row]
         cell.textLabel?.text = taskToDisplay.detail
         return cell
