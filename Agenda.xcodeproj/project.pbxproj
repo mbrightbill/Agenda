@@ -17,6 +17,7 @@
 		D557636D1AC782AF00B2C353 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = D557636B1AC782AF00B2C353 /* LaunchScreen.xib */; };
 		D55763791AC782AF00B2C353 /* AgendaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D55763781AC782AF00B2C353 /* AgendaTests.swift */; };
 		D59F244D1AD5DD1A005D597C /* greenSlice.png in Resources */ = {isa = PBXBuildFile; fileRef = D59F244C1AD5DD1A005D597C /* greenSlice.png */; };
+		D5CA4EDC1AD719A3000F2AF6 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5CA4EDB1AD719A3000F2AF6 /* MenuViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		D55763771AC782AF00B2C353 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D55763781AC782AF00B2C353 /* AgendaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AgendaTests.swift; sourceTree = "<group>"; };
 		D59F244C1AD5DD1A005D597C /* greenSlice.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = greenSlice.png; sourceTree = "<group>"; };
+		D5CA4EDB1AD719A3000F2AF6 /* MenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -134,6 +136,7 @@
 			children = (
 				D557635F1AC782AF00B2C353 /* AppDelegate.swift */,
 				D515AFE91AC7870D008EB5EC /* TodayViewController.swift */,
+				D5CA4EDB1AD719A3000F2AF6 /* MenuViewController.swift */,
 			);
 			name = "Controller Layer";
 			sourceTree = "<group>";
@@ -251,6 +254,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D515AFEC1AC79169008EB5EC /* Task.swift in Sources */,
+				D5CA4EDC1AD719A3000F2AF6 /* MenuViewController.swift in Sources */,
 				D55763601AC782AF00B2C353 /* AppDelegate.swift in Sources */,
 				D55763631AC782AF00B2C353 /* Agenda.xcdatamodeld in Sources */,
 				D515AFEA1AC7870D008EB5EC /* TodayViewController.swift in Sources */,

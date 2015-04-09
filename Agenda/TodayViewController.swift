@@ -139,6 +139,9 @@ class TodayViewController: UIViewController, UITableViewDataSource, UITableViewD
         
         println("Menu Button pressed!")
         
+        let menuVC = self.storyboard?.instantiateViewControllerWithIdentifier("menuVC") as MenuViewController
+        self.navigationController?.pushViewController(menuVC, animated: true)
+        
     }
     
     
