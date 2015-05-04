@@ -25,7 +25,7 @@ class TodayViewController: UIViewController, UITableViewDataSource, UITableViewD
         self.todayTableView.delegate = self
         self.todayTableView.dataSource = self
        
-        let appDelegate = UIApplication.sharedApplication().delegate as AppDelegate
+        let appDelegate = UIApplication.sharedApplication().delegate as! AppDelegate
         self.managedContext = appDelegate.managedObjectContext!
         
         todayTableView.backgroundColor = UIColor(patternImage: UIImage(named: "greenSlice.png")!)
@@ -54,7 +54,7 @@ class TodayViewController: UIViewController, UITableViewDataSource, UITableViewD
     
     func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
         
-        let cell = tableView.dequeueReusableCellWithIdentifier("TASK_CELL", forIndexPath: indexPath) as UITableViewCell
+        let cell = tableView.dequeueReusableCellWithIdentifier("TASK_CELL", forIndexPath: indexPath) as! UITableViewCell
         
         cell.backgroundColor = UIColor.clearColor()
         cell.textLabel?.textColor = UIColor.whiteColor()
@@ -97,7 +97,7 @@ class TodayViewController: UIViewController, UITableViewDataSource, UITableViewD
         
         let taskEntity = NSEntityDescription.entityForName("Task", inManagedObjectContext: managedContext)
         
-        let task = NSManagedObject(entity: taskEntity!, insertIntoManagedObjectContext: managedContext) as Task
+        let task = NSManagedObject(entity: taskEntity!, insertIntoManagedObjectContext: managedContext) as! Task
         
         task.detail = taskToSave
         
@@ -115,7 +115,7 @@ class TodayViewController: UIViewController, UITableViewDataSource, UITableViewD
         let addAction = UIAlertAction(title: "Add", style: UIAlertActionStyle.Default) { (action: UIAlertAction!) -> Void in
             println("addAction pressed!")
             
-            let textField = alert.textFields![0] as UITextField
+            let textField = alert.textFields![0] as! UITextField
             self.saveTask(textField.text)
             self.todayTableView.reloadData()
         }
@@ -139,7 +139,7 @@ class TodayViewController: UIViewController, UITableViewDataSource, UITableViewD
         
         println("Menu Button pressed!")
         
-        let menuVC = self.storyboard?.instantiateViewControllerWithIdentifier("menuVC") as MenuViewController
+        let menuVC = self.storyboard?.instantiateViewControllerWithIdentifier("menuVC") as! MenuViewController
         self.navigationController?.pushViewController(menuVC, animated: true)
         
     }
